@@ -8,8 +8,13 @@
 </ul>
 
 ## Build
+Run `cp .env.example .env ` to create environment variable and fill api path <br>  
+Run `make build` to build environment
 
-In order to build app simply run `make build`
+
+## Test application
+Run `make test` to test it on provided file
+
 
 ## Run application
 Put your desired csv file into `files` directory 

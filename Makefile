@@ -18,3 +18,7 @@ build:
 
 csv-parse:
 	${DOCKER_RUN} csv:parse $(file)
+
+
+test:
+	${DOCKER_RUN} test
