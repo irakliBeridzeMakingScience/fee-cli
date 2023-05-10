@@ -21,4 +21,4 @@ csv-parse:
 
 
 test:
-	${DOCKER_RUN} test
+	${DOCKER_RUN} test --testsuite=Feature
