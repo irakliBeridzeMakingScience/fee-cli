@@ -17,5 +17,5 @@ Run `make test` to test it on provided file
 
 
 ## Run application
-Put your desired csv file into `files` directory 
+Put your desired csv file into `files` directory , re-build app
 Run `make csv-parse file=<file_name>`  
